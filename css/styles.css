@@ -69,6 +69,25 @@ header a {
   color: #4b6593;
 }
 
+/* nave */
+
+nav {
+  background: #4b6593;
+  color: #ccc;
+  height: 32px;
+}
+
+nav .container ul {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  padding: 0 32px;
+}
+
+nav .container li {
+  padding: 4px 0;
+}
+
 /* hero */
 
 .hero {
@@ -323,7 +342,7 @@ header a {
 
 .copyright {
   margin-top: 104px;
-  background: #6c4a91;
+  background: #4b6593;
   padding: 32px 0;
   color: #ccc;
 }
