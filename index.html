@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTC 北海道観光 株式会社</title>
+  <link rel="icon" href="img/favicon.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <a href="index.html">
+        <h1><img src="img/logo.png" alt="HTC 北海道観光 株式会社" width="280"></h1>
+      </a>
+      <a href="#">
+        お問合せはこちら<br>
+        <i class="bi bi-telephone-fill"></i>
+        06-1234-5678
+      </a>
+    </div>
+  </header>
+  
+  <section class="hero">
+    <img src="img/1.png" alt="阿寒の写真">
+    <img src="img/2.png" alt="新得の写真" class="current">
+    <!-- <img src="img/3.png" alt="美瑛の写真"> -->
+    <img src="img/4.png" alt="美瑛の写真">
+  </section>
+  
+  <section class="policy">
+    <div class="container">
+      <img src="img/policy.png" alt="会社の方針" width="160">
+      <h2>1.お客様に満足のいく北海道旅行を提案します</h2>
+      <p>北海道を拠点に、長年に渡り培った経験を活かし、希望される要望、時期にぴったりの北海道旅行をご提案いたします。</p>
+      <h2>1.お客様に満足のいく北海道旅行を提案します</h2>
+      <p>北海道を拠点に、長年に渡り培った経験を活かし、希望される要望、時期にぴったりの北海道旅行をご提案いたします。</p>
+      <h2>1.お客様に満足のいく北海道旅行を提案します</h2>
+      <p>北海道を拠点に、長年に渡り培った経験を活かし、希望される要望、時期にぴったりの北海道旅行をご提案いたします。</p>
+    </div>
+  </section>
+
+  <section class="information">
+    <div class="container">
+      <img src="img/information.png" alt="お知らせ" width="160">
+      <article>
+        <a href="#">・新型コロナ感染拡大中の旅行について</a>
+        <p>一部の内容です。一部の内容です。一部の内容です。一部の内容です。一部の内容です。</p>
+        <footer>
+          <small>投稿日：<time datetime="2022-04-01 00:00">2022年4月1日</time> 投稿者：kikuchi</small>
+        </footer>
+      </article>
+      <article>
+        <a href="#">・新型コロナ感染拡大中の旅行について</a>
+        <p>一部の内容です。一部の内容です。一部の内容です。一部の内容です。一部の内容です。</p>
+        <footer>
+          <small>投稿日：<time datetime="2022-04-01 00:00">2022年4月1日</time> 投稿者：kikuchi</small>
+        </footer>
+      </article>
+      <article>
+        <a href="#">・新型コロナ感染拡大中の旅行について</a>
+        <p>一部の内容です。一部の内容です。一部の内容です。一部の内容です。一部の内容です。</p>
+        <footer>
+          <small>投稿日：<time datetime="2022-04-01 00:00">2022年4月1日</time> 投稿者：kikuchi</small>
+        </footer>
+      </article>
+    </div>
+  </section>
+
+  <!-- <div id="open">
+    新しい旅のエチケット
+  </div> -->
+  <div id="mask" class="hidden"></div>
+  <section id="modal" class="hidden">
+    <p>新型コロナの感染者が増えています。<br>旅の際は、下記のエチケットを守りましょう。</p>
+    <img src="img/covid19.png" alt="旅のエチケット" width="320">
+    <div id="close">閉じる</div>
+  </section>
+
+  <section class="tab">
+    <div class="container">
+    <img src="img/area.png" alt="人気エリア" width="160">
+    <p>人気エリアのご紹介となります。気になるエリアがありましたら、すぐご連絡ください。</p>
+      <ul class="menu">
+        <li><a href="#" class="active" data-id="sapporo">札幌</a></li>
+        <li><a href="#" data-id="asahikawa">旭川</a></li>
+        <li><a href="#" data-id="otaru">小樽</a></li>
+        <li><a href="#" data-id="tokachi">十勝エリア</a></li>
+        <li><a href="#" data-id="hidaka">日高エリア</a></li>
+      </ul>
+      <section class="content active" id="sapporo">
+        <div class="desc">
+          札幌の内容です。札幌の内容です。札幌の内容です。札幌の内容です。札幌の内容です。札幌の内容です。札幌の内容です。札幌の内容です。札幌の内容です。札幌の内容です。札幌の内容です。札幌の内容です。札幌の内容です。札幌の内容です。
+        </div>
+        <div class="pic">
+          <img src="img/sapporo.png" alt="札幌の写真" width="120">
+        </div>
+      </section>
+      <section class="content" id="asahikawa">
+        <div class="desc">
+          旭川の内容です。旭川の内容です。旭川の内容です。旭川の内容です。旭川の内容です。旭川の内容です。旭川の内容です。旭川の内容です。旭川の内容です。旭川の内容です。旭川の内容です。旭川の内容です。旭川の内容です。旭川の内容です。
+        </div>
+        <div class="pic">
+          <img src="img/asahikawa.png" alt="旭川の写真" width="120">
+        </div>
+      </section>
+      <section class="content" id="otaru">
+        <div class="desc">
+          小樽の内容です。小樽の内容です。小樽の内容です。小樽の内容です。小樽の内容です。小樽の内容です。小樽の内容です。小樽の内容です。小樽の内容です。小樽の内容です。小樽の内容です。小樽の内容です。小樽の内容です。小樽の内容です。
+        </div>
+        <div class="pic">
+          <img src="img/otaru.png" alt="小樽の写真" width="120">
+        </div>
+      </section>
+      <section class="content" id="tokachi">
+        <div class="desc">
+          十勝エリアの内容です。十勝エリアの内容です。十勝エリアの内容です。十勝エリアの内容です。十勝エリアの内容です。十勝エリアの内容です。十勝エリアの内容です。十勝エリアの内容です。十勝エリアの内容です。十勝エリアの内容です。十勝エリアの内容です。十勝エリアの内容です。十勝エリアの内容です。十勝エリアの内容です。
+        </div>
+        <div class="pic">
+          <img src="img/tokachi.png" alt="十勝の写真" width="120">
+        </div>
+      </section>
+      <section class="content" id="hidaka">
+        <div class="desc">
+          日高エリアの内容です。日高エリアの内容です。日高エリアの内容です。日高エリアの内容です。日高エリアの内容です。日高エリアの内容です。日高エリアの内容です。日高エリアの内容です。日高エリアの内容です。日高エリアの内容です。日高エリアの内容です。日高エリアの内容です。日高エリアの内容です。日高エリアの内容です。
+        </div>
+        <div class="pic">
+          <img src="img/hidaka.png" alt="日高の写真" width="120">
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <section class="accordion">
+    <div class="container">
+      <img src="img/FAQ.png" alt="よくある質問" width="160">
+      <p>よくご質問をいただく内容を下記にまとめました。わからないことがありましたら、お気軽にご連絡ください。</p>
+      <dl>
+        <div>
+          <dt>質問です</dt>
+          <dd>回答です。回答です。回答です。回答です。回答です。回答です。回答です。回答です。回答です。回答です。</dd>
+        </div>
+        <div>
+          <dt>質問です</dt>
+          <dd>回答です。回答です。回答です。回答です。回答です。回答です。回答です。回答です。回答です。回答です。</dd>
+        </div>
+        <div>
+          <dt>質問です</dt>
+          <dd>回答です。回答です。回答です。回答です。回答です。回答です。回答です。回答です。回答です。回答です。</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <footer class="copyright">
+    <div class="container">
+      <small>(c) www.htc.com</small>
+      <ul>
+        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+        <li><a href="#"><i class="bi bi-instagram"></i></i></a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
