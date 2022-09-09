@@ -69,6 +69,10 @@ header a {
   color: #4b6593;
 }
 
+header #chuou {
+  text-align: center;
+}
+
 /* nave */
 
 nav {
@@ -228,13 +232,12 @@ nav .container li {
 
 .tab .menu {
   padding-top: 32px;
-  width: calc(100% - 32px);
   display: flex;
   justify-content:flex-start;
 }
 
 .tab li a {
-  width: 80px;
+  width: 64px;
   text-align: center;
   padding: 8px 0;
   color: #ccc;
@@ -379,7 +382,7 @@ nav .container li {
 
 /* large screen */
 
-@media (min-width: 800px) {
+@media(min-width:800px) {
   
   .container {
     width: calc(100% - 32px);
