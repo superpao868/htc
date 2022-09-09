@@ -231,6 +231,7 @@ nav .container li {
 .tab .menu {
   padding-top: 32px;
   display: flex;
+  justify-content: left;
 }
 
 .tab li a {
