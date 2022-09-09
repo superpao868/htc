@@ -31,7 +31,7 @@ img {
 a {
   text-decoration: none;
   color: inherit;
-  font-size: 14px;
+  font-size: 13px;
   display: inline-block;
   transition: opacity .4s;
 }
@@ -66,7 +66,6 @@ header .container {
 }
 
 header a {
-  font-size: 14px;
   color: #4b6593;
 }
 
@@ -211,11 +210,10 @@ nav .container li {
 
 .tab {
   margin-top: 104px;
-  font-size: 14px;
 }
 
 .tab .container {
-  margin: 30px auto;
+  margin: 32px auto;
   width: calc(100% - 32px);
 }
 
@@ -230,8 +228,9 @@ nav .container li {
 
 .tab .menu {
   padding-top: 32px;
+  width: calc(100% - 32px);
   display: flex;
-  justify-content: left;
+  justify-content:flex-start;
 }
 
 .tab li a {
