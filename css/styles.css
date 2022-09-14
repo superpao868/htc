@@ -79,14 +79,6 @@ ol {
   transition-delay: .6s;
 }
 
-.animate.delay4 {
-  transition-delay: .9s;
-}
-
-.animate.delay5 {
-  transition-delay: 1.2s;
-}
-
 /* header */
 
 header{
