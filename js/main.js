@@ -44,7 +44,24 @@
         content.classList.remove('active');
       });
       document.getElementById(clickedItem.dataset.id).classList.add('active');
+      document.getElementById(clickedItem.dataset.id).classList.add('appear');
     });
+  });
+
+  function inViewCallback(entries, obs) {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) {
+        return;
+      }
+      entry.target.classList.add('appear');
+      obs.unobserve(entry.target);
+    });
+  }
+  const inViewObserver = new IntersectionObserver(inViewCallback, {
+    threshold: 0.2,
+  });
+  document.querySelectorAll('.animate').forEach(el => {
+    inViewObserver.observe(el);
   });
 
   const dts = document.querySelectorAll('dt');
@@ -55,7 +72,7 @@
         if (dt !== el) {
           el.parentNode.classList.remove('appear');
         }
-      })
+      });
     });
   });
 
